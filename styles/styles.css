@@ -7,17 +7,22 @@ header {
 	text-align: center;
 }
 
+header h1 {
+	background-color: #ffb88c;
+}
+
+section h2 {
+	text-align: center;
+}
+
 footer {
-    margin: auto;
-    width: 50%;
+	border-top: 1px solid black;
 }
 
 footer div {
 	text-align: center;
 }
 
-
-footer .logo {
-	width: 50%;
-	margin: auto;
+footer div:first-child {
+	margin-top: 20px;
 }
